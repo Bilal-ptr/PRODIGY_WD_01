@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    overflow-x: hidden;
+}
+.section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/* Ensure the navigation is fixed at the top */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+    background-color: #2f53be;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(146, 116, 116, 0.1);
+}
+
+/* Style for the heading inside the nav */
+nav h1 {
+    font-size: 40px;
+    display: flex;
+    cursor: pointer;
+}
+
+/* Style for each nav item */
+nav .part2 h4 {
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+/* Add a hover effect to nav items */
+nav .part2 h4:hover {
+    color: #ffffff;
+    background-color: #2e017b;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Style for the button */
+nav button {
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+nav button:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #2e017b;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.part2 h4:hover {
+    cursor: pointer;    
+    color: #ffffff;
+    background-color: #2e017b;
+}
+
+.center{
+    padding: 70px 80px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* background-color: antiquewhite; */
+    
+}
+.center-part1{
+    /* background-color: rgb(112, 73, 73); */
+    width: 40%;
+    /* height: 100%; */
+}
+
+.center-part1 h1{
+    line-height: 1.2;
+    font-size: 50px;
+    /* width: 90%; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: red; */
+}
+.center-part1 p{
+    font-size: 15px;
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.center-part1 button{
+        background-color: #000000;
+        color: rgb(243, 243, 243) ;
+        border-radius: 10px;
+        padding: 20px 40px;
+        font-size: 20px;
+        font-weight: 700;
+        /* border: none; */
+
+}
+.center-part2{
+    /* background-color: rgb(45, 147, 72); */
+    width: 60%;
+    /* height: 100%; */
+    position: relative;
+}
+.center-part2 img{
+    position:absolute;
+    height: 100%;
+    right: 0;
+    width: 100%;
+   
+}
+.section1-bottom{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding: 10px 0px 10px 30px;
+    gap: 20px;
+}
+.section1-bottom img{
+    height: 60px;
+    gap:90px;
+}
+.services {
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns items to the start of the container */
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.services h3 {
+    font-weight: 600;
+    background-color: rgb(72, 24, 168) ;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family:cursive;
+    color: white;
+    margin: 0; /* Removes any default margin */
+}
+
+.services p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0; /* Removes any default margin */
+    line-height: 1.5; /* Adjusts line spacing */
+    max-width: 600px; /* Sets a maximum width for the paragraph */
+}
+.container{
+    height: 90%;
+    width: 100%;
+    padding: 60px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+.elem{
+    display: flex;
+    flex-shrink: 0;
+    padding: 5px;
+    height: 250px;
+    width: 48%;
+    border-radius: 15px;
+    /* background-color: red; */
+    border: 1px solid black;
+    box-shadow: 1px 10px 50px black;
+}
+.elem-part1{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+    
+}
+.elem-part2 img{
+    height: 100%;
+}
+.elem-part1 h1{
+    font-size:30px;
+    font-weight:600 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(192, 176, 179);
+    width: 100%;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+.elem-part1 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-size: 16px;
+    font-weight: 600;
+    gap:10px
+}
+.elem-part1 h2 i{
+    padding: 0px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 50%;
+
+}
+.black{
+    background-color: black;
+}
+.black h1{
+    background-color: #fff;
+}
+.black h2{
+    color: #fff;
+}
+
+
